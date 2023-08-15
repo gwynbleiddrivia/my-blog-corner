@@ -21,10 +21,10 @@ const RootLayout = ({ children }) => {
       <body
         className={classNames(
           roboto.variable,
-          "container mx-auto px-2 font-roboto lg:px-10"
+          "container w-full mx-auto font-roboto"
         )}
       >
-          <div className="flex min-h-screen flex-col justify-between">
+          <div className="flex max-h-screen flex-col justify-between">
             <div>
               <Navbar />
               <main className="mt-5">{children}</main>
